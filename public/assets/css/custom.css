@@ -1,0 +1,90 @@
+.pagination{
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.modal-dialog{
+    max-width: 625px;
+}
+::-webkit-scrollbar{
+
+    width: .60rem;
+
+    background-color: hsl(var(--hue-color),12%,90%);
+
+    border-radius: .5rem;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background-color: var(--text-color);
+
+    border-radius: .5rem;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background-color: rgba(128, 128, 128, 0.699);
+
+}
+.container-xxl{
+    border-radius: 15px;
+}
+.teacher-card{
+    border-radius: 8px;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.icon-count{
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 25px;
+    z-index: 999;
+    font-size: 14px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+
+}
+.time {
+    display: none;
+}
+
+.message:hover .time {
+    display: block;
+}
+
+.restore {
+    background-color: gray;
+}
+.chat-body{
+    animation: colorBackground 20s infinite;
+}
+
+@keyframes colorBackground {
+    0% {
+    color: #fbcf61;
+    }
+    20% {
+    color: #6bd57e;
+    }
+    30% {
+    color: #ff6f6f;
+    }
+    50% {
+    color: #57cff4;
+        }
+    70%{
+        color: pink;
+    }
+    90%{
+        color:blueviolet
+    }
+}
